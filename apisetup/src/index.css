@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cardBox{
+  border-radius: 10px;
+  box-shadow: 12px 12px 10px 0px;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  overflow: hidden;
+  border: 1px solid black;
+  padding: 10px;
+  background-color:bisque
+}
+.cardBox > p{
+  font-size: 10px;
+}
+
+.imgContain{
+  overflow: hidden;
+}
+.imgContain > img{
+  height: 200px;
+}
+.priceBox{
+  display: flex;
+  justify-content: space-around;
+}
+.buyButton{
+  font-size:18px;
+  margin-top: 10px;
+  width:162px;
+  height:35px;
+  border-width:0px;
+  color:#fff;
+  border-color:#0b0e07;
+  border-top-left-radius:17px;
+  border-top-right-radius:17px;
+  border-bottom-left-radius:17px;
+  border-bottom-right-radius:17px;
+  box-shadow:inset 0px -12px 7px 0px #29bbff;
+  text-shadow:inset 0px 1px 0px #263666;
+  background:linear-gradient(#2dabf9, #0688fa);
+}
+
+.buyButton:hover {
+  background: linear-gradient(#0688fa, #2dabf9);
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
